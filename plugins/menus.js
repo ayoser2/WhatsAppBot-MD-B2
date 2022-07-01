@@ -10,7 +10,7 @@ let handler = async (m, { usedPrefix, command, msgsz    }) => {
 
 
 
-    msgsz.sendTB(m.chat, `Alien Alfa BETA2 testbot\n\n😻 I am Alive \n` + `${uptimex}`, wm, linkbuttid1, butturl1, 'ꜱᴏᴜʀᴄᴇ', 'https://github.com/Alien-alfa/WhatsAppBot-MD', 'ʟɪꜱᴛ ᴍᴇɴᴜ', `.melp`, 'ᴀʟʟ ᴍᴇɴᴜ', '.] bonk', null, null, m) 
+    msgsz.sendTB(m.chat, `ɱµƭɦµ ตժ\n\n❦ I am Alive \n` + `${uptimex}`, wm, linkbuttid1, butturl1, 'ꜱᴄʀɪᴘᴛ', 'รcɾเρƭ เɳ รσσɳ', 'ʟɪꜱᴛ ᴍᴇɴᴜ', `.melp`, 'ᴀʟʟ ᴍᴇɴᴜ', '.] bonk', null, null, m) 
   }
      
 
