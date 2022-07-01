@@ -17,8 +17,8 @@ let handler = async (m, { msgsz, command, usedPrefix, text    }) => {
 ${sa1}${kki1} *${botname}* ${kka1}
 ${gx1}
 ${gy2} Library : *Baileys-MD*
-${gy2} Language : *Javascript*
-${gy2} Database : *SQL*
+${gy2} Language : *python*
+${gy2} Database : *ᴍᴏɴɢᴏDB*
 ${gy2} Version : *${versibot}*
 ${gy2} Developer : *${global.devname}*
 ${gy2} Runtime : *${runtime}*
@@ -29,8 +29,8 @@ ${gy2} Register : *${userdaftar}*
 ${sb1}
 `.trim()
 var as = `Date :${date}\nTime : ${a} (WIB)`
- //msgsz.sendTIL(m.chat, infonyacok, as, fla + `${command}`, `Source Code`, `https://github.com/Alien-Alfa`, null, null, `Menu`, `${usedPrefix}menu`, null, null, null, null, m, 
-   msgsz.sendBI(m.chat, infonyacok, as, fla + `${command}`, [[`ɢɪᴛʜᴜʙ`, `${usedPrefix}sc`], [`ᴍᴀɪɴ ᴍᴇɴᴜ`, `${usedPrefix}menu`]], m,        
+ //msgsz.sendTIL(m.chat, infonyacok, as, fla + `${command}`, `Source Code`, `sᴄʀɪᴘᴛ ⁱⁿ sᴏᴏɴ`, null, null, `Menu`, `${usedPrefix}menu`, null, null, null, null, m, 
+   msgsz.sendBI(m.chat, infonyacok, as, fla + `${command}`, [[`sᴄʀɪᴘᴛ`, `${usedPrefix}sc`], [`ᴍᴀɪɴ ᴍᴇɴᴜ`, `${usedPrefix}menu`]], m,        
            )
 
 }
