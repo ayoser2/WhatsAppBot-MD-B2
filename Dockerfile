@@ -7,7 +7,7 @@ COPY ./ /root/AlienAlfa/
 RUN apt-get update && \
   apt-get install -y \
   ffmpeg \
-  imagemagick \
+  ffmpeg \
   webp && \
   apt-get upgrade -y && \
 rm -rf /var/lib/apt/lists/*
