@@ -13,7 +13,7 @@ var defaultMenu = {
 
 
     before: '╭────────────────╮\n'.trimStart(),
-    before1:' |                      ᴀʟɪᴇɴ ᴀʟꜰᴀ                        |\n',
+    before1:' |                      ᴘʀɪɴᴄᴇ ᴍᴜᴛʜᴜ                        |\n',
     before2:'╰────────────────╯\n'.trimStart(),
     before3:'╭────────────────\n'.trimStart(),
 
@@ -39,12 +39,12 @@ let handler = async (m, { msgsz, usedPrefix: _p, args, command    }) => {
   'xp': '*MENU EXP*',
   'fun': '*MENU FUN*',
   'game': '*MENU GAME*',
-  'github': '*MENU GITHUB*',
+  'github': '*SCRIPT*',
   'group': '*MENU GROUP*',
   'image': '*MENU IMAGE*',
   'info': '*MENU INFO*',
   'internet': '*INTERNET*',
-  'islam' : '*MENU ISLAMI*',
+  'islam' : '*MENU RELIOUGES*',
   'kerang': '*MENU KERANG*',
   'maker': '*MENU MAKER*',
   'owner': '*MENU OWNER*',
