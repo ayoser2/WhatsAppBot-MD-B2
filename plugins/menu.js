@@ -8,7 +8,7 @@ let moment = require('moment-timezone')
 const { default: Users } = require('node-os-utils/lib/users')
 const defaultMenu = {
   before: '╭────────────────╮'.trimStart(),
-  before1:' |                      ᴀʟɪᴇɴ ᴀʟꜰᴀ                        |'.trimStart(),
+  before1:' |                      ᴘʀɪɴᴄᴇ ᴍᴜᴛʜᴜ                        |'.trimStart(),
   before2:'╰────────────────╯'.trimStart(),
 
 
@@ -22,7 +22,7 @@ const defaultMenu = {
 let handler = async (m, { msgsz, usedPrefix: _p, args, command    }) => {
  try {   let tags
   let teks = `${args[0]}`.toLowerCase()
-  let arrayMenu = ['all', 'absen', 'rpg', 'anime', 'downloader', 'game', 'fun', 'xp', 'github', 'group', 'image', 'quotes', 'admin', 'info', 'internet', 'islam', 'kerang', 'maker', 'owner', 'suara', 'premium', 'quotes', 'info', 'stalk', 'shortlink', 'sticker', 'tools']
+  let arrayMenu = ['all', 'absen', 'rpg', 'anime', 'downloader', 'game', 'fun', 'xp', 'script', 'group', 'image', 'quotes', 'admin', 'info', 'internet', 'reliouguos', 'kerang', 'maker', 'owner', 'suara', 'premium', 'quotes', 'info', 'stalk', 'shortlink', 'sticker', 'tools']
   if (!arrayMenu.includes(teks)) teks = '404'
   if (teks == 'all') tags = {
   'main': '*MENU UTAMA*',
@@ -34,7 +34,7 @@ let handler = async (m, { msgsz, usedPrefix: _p, args, command    }) => {
   'xp': '*MENU EXP*',
   'fun': '*MENU FUN*',
   'game': '*MENU GAME*',
-  'github': '*MENU GITHUB*',
+  'github': '*SCRIPT*',
   'group': '*MENU GROUP*',
   'image': '*MENU IMAGE*',
   'info': '*MENU INFO*',
@@ -75,7 +75,7 @@ let handler = async (m, { msgsz, usedPrefix: _p, args, command    }) => {
   'game': '*MENU GAME*',
   }
   if (teks == 'github') tags = {
-  'github': '*MENU GITHUB*',
+  'github': '*SCRIPT*',
   }
   if (teks == 'group') tags = {
   'group': '*MENU GROUP*',
